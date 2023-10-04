@@ -1,0 +1,36 @@
+eljárás orientált:
+- 50-es években jelent meg
+
+oop:
+- elzártság: public, private, protect
+- öröklődés: példányosítás segítségével
+- polimorfizmus : az örökölt dolgokat tudjuk felül írni
+
+get: kérik az értékét és vissza adja
+set: kapja az értéket, publikus változó
+this: az osztályon belül valamilyen tulajdonságra vonatkozik
+
+
+generate constructor -- konstruktor generálása
+konstruktor -- osztály legfontosabb része. példányosít.
+
+exception -- kivétel kezelése -- nem várt hiba
+
+fájl olvasása: "file.ReadLine();" -- soronként olvas
+
+- List: dinamikus lista -- tetszés szerinnt bővíthető, törölhető, rendezhető. objektumot tárol
+- Array: rögzített, adott mennyiségű.
+- Dictionary: kettő között van, a leggyorsabb elérhetőséget biztosít.
+
+metódus túlterhelés -- overloading
+
+LINQ -- SQL-hez hasonló utasítások segítségével lehetett az adatot lekérdezni ha rendezett listáról van szó
+lambda kifejezés (ebben megadjuk a porrásokat) => {utasítások}
+
+példányosítás (paraméterek megadása): Emlosok emlosok = new Emlosok();
+
+származtatás: Macska : Emlosok
+
+- : base -- tovább küldi az adatokat az alapnak
+
+uint 4millióig jó szám...

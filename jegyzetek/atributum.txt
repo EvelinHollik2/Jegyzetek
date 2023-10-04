@@ -1,0 +1,5 @@
+C#
+
+https://merlinvizsga.hu/index.php?menu=algoritmusok
+
+algoritmusok: a számítógép csak algoritmizáló feladatot tud megoldani -- 

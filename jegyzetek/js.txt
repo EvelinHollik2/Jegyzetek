@@ -1,0 +1,29 @@
+html:
+id-vel érjük el az értékeket majd a js-be
+érték adás: value, InnerHtml
+
+js:
+fügvénnyel meghívjuk a html részeket: function ....(){}
+változók: (var,) let, const
+	const = egyszer felhasználható; bármikor kitudjuk olvasni; mindig ugyan az az input címe
+	var = többször változtatható az értéke
+	let = gyökérben többször változtatható az értéke
+
+érték kiiratás: console.log(..);
+    parseInt pontos
+    parseFloat levegőpontos
+    aminek van értéke azoknál használjuk
+
+innerHtml: kiírja a kódot
+outerHtml: teljes elemet tartalmazza
+token.toFixed(2) kettes számjegyig számol
+
+'' ezt kell használni
+
+querySelector = közvetlenül keres (#)- id szerint keres
+
+
+js elején definiáljuk a változókat
+
+const kep=document.querySelector('#kep'); -- kép hozzá csatolása html-ből
+gombhoz hozzárendelhetünk függvényt klikk eseménnyel: gomb.addEventListener('click',kepcsere)
