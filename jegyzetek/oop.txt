@@ -2,7 +2,7 @@ eljárás orientált:
 - 50-es években jelent meg
 
 oop:
-- elzártság: public, private, protect
+- elzártság: elérhetősége az adatoknak -- public, private, protect
 - öröklődés: példányosítás segítségével
 - polimorfizmus : az örökölt dolgokat tudjuk felül írni
 
@@ -10,6 +10,7 @@ get: kérik az értékét és vissza adja
 set: kapja az értéket, publikus változó
 this: az osztályon belül valamilyen tulajdonságra vonatkozik
 
+void: nem ad vissza értéket
 
 generate constructor -- konstruktor generálása
 konstruktor -- osztály legfontosabb része. példányosít.
@@ -34,3 +35,15 @@ származtatás: Macska : Emlosok
 - : base -- tovább küldi az adatokat az alapnak
 
 uint 4millióig jó szám...
+
+algoritmusok: a számítógép csak algoritmizáló feladatot tud megoldani 
+
+Interface:
+csak viselkedést lehet örököltetni.
+
+GUI -- grafikus user interface: (WinForm.netFrameWork)
+- WPF -- .netFramework / .netcore : Egy alapot ad, kézzel kell beállítani mindent.
+- WinForm -- .netFramework / .netcore : Windows beállításait veszi át
+	.netcore: operációs rendszer független, hordozható alkalmazásra használják
+	.netFramework: a windows magja
+

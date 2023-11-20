@@ -1,0 +1,22 @@
+AJAX - XMLHttpRequest()
+
+RESTAPI - request (url) -> response (JSON, HTMTL, txt, XML, RAW jpg, png,...)
+
+Backend:
+- kiszolgálón futó alkalmazás
+- kérés, válasz alapú
+- 
+
+Frontend:
+- kliens gépen fut
+(- sniffer- dekodól)
+- böngészőben lévő futtatás - HTML + CSS +  Ecma Script (JS)
+
+Synchromous hívások: A feladatok között várakozik, várakozik a kérdés válaszára, és utánna tölti be az oldalt.
+Asynchromous hívások: Nincs várakozás a feladatok teljesítésére, betöltődik a lap, és amint kap választ a feladatra, utánna töltődik
+
+- JSON {nev: ertek, nev2:ertek2, ...}
+- JSON Array [{nev: ertek, nev2:ertek2, ...},{nev: ertek, nev2:ertek2, ...},{nev: ertek, nev2:ertek2, ...},...]
+- nested JSON {nev: ertek, nev2:ertek2, ...}, [{nev: ertek, nev2:ertek2, ...}],...
+
+in promise --> amit vissza ad

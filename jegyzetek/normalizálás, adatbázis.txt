@@ -1,0 +1,10 @@
+top - down -> ER- diagram
+down - top -> normalizálás 3NF (3. normál forma)
+
+Ha nincs 3NF-be akkor nem működik az adatbázis.
+konzisztens és inkonzisztens lehet egy táblázat
+
+0NF: Kiindulás -- Táblázat ellenőrzése, ne legyen adat ismétlődés
+1NF: egyedi típusok meghatározása -- megkülönböztető tulajdonságok
+2NF: Részleges funkcionális függés megszüntetése -- elsődleges kulcs keresése
+3NF: Tranzitív függések megszüntetése -- A leíró tulajdonságok közötti összefüggés

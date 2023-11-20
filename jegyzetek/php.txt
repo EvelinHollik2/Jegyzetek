@@ -39,3 +39,5 @@ pdo
 php mysqli -- objektum orientált programozási mód
 pdo -- akkor használjuk ha nem adatbázis specifikusan akarunk programozni
 
+kliens oldali ellenőrzés
+-- input type -> email, password, numeric

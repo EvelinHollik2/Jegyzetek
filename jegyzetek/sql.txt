@@ -1,7 +1,7 @@
 https://dev.mysql.com/doc/refman/8.0/en/numeric-functions.html
 
 SQL -- szabványos lekérdező nyelv, relációs adatbázisok kezelésére van kitalálva
-- hálós -- bármilyában tudunk keresni
+- hálós -- bármilyen fájlban tudunk keresni
 - hierarchikus -- csak egy formában tudunk keresni
 - relációs -- az adatok táblázatosan vannak tárolva, ugyan abban a ssorban van az összes adat, egy táblában vannak, a tulajdonság értékek különböztetik meg őket.
 
@@ -42,9 +42,43 @@ ROUND(....0) -- egészre kerekítés
 USING -- többszörös kulcs, több táblában ugyan olyan nevű mező van
 
 CASE - END utasítás:
--- többszorös elágazást tesz lehetővé, csak azt állítja elő amit akarunk
+-- többszörös elágazást tesz lehetővé, csak azt állítja elő amit akarunk
 
 kommentelés: -- (minusz, minusz, szóköz)
 
 abszolut érték : csak pozitív értékek lesznek (ABS())
 
+CREATE -- ADATSZERKEZET LÉTREHOZÁSA
+INSERT -- ADATTÁROLÁSRA KIADOTT UTASÍTÁS
+SHOW -- SZERKEZET MEGJELENÍTÉSE
+SELECT -- OLVASÁS
+ALTER -- ADATSZERKEZET MÓDOSÍTÁSA
+UPDATE -- ADAT BEVITEL
+DROP -- ELDOBÁS
+DELETE -- ADAT TÖRLÉS
+
+Fáljban történő tárolás előnye: (RAID, scsi vezérlő)
+ 
+Adatbázisban történő tárolás előnye:
+-- biztonság
+-- mennyiség
+-- megosztás/elérhetőség
+-- sebesség - tárolási struktúra (adatmodell -- hálós, hierarchikus, relációs)
+
+Normalizálás:
+-- Nézet táblák - VIEW - adathalmaz -> normalizálás -> táblák -> denormalizálás -> eredeti adathalmaz
+-- Tárolt eljárás - CALL - nem mindig ad eredményt
+-- Tárolt függvény - 
+-- Triggerek (INSERT, UPDATE, DELETE)
+-- Időzitett eljárások
+
+VIEW:
+SELECT * FROM vevo NATURAL JOIN rendeles NATURAL JOIN tetel NATURAL JOIN pizza NATURAL JOIN futar;
+
+Mindenadat tábla étrehozása, és eltárolása:
+CREATE VIEW mindenadat AS SELECT * FROM vevo NATURAL JOIN rendeles NATURAL JOIN tetel NATURAL JOIN pizza NATURAL JOIN futar;
+
+Szende pizzái:
+SELECT mindenadat.pnev FROM mindenadat WHERE mindenadat.vnev = "Szende";
+
+SET - csak értékadásra használtható

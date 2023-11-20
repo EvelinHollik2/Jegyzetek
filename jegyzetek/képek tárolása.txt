@@ -1,0 +1,2 @@
+bitképes -- rácspntok tulajdonságait tárolja le (bmp, jpg, jpeg, png), nayításnál pixelesít
+vektrografikus -- geometria alakzatok jellemzőit tárolja le (svg, wmf, psd)
