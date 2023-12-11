@@ -1,0 +1,22 @@
+(sun) java forrás - byte code - JRE -- virtuális számítógép - bármilyen processzoron fut
+
+gradle - forrásból előállítja a byte code-ot
+
+Androidos telefonnal való összekötés:
+beállítások - build number (kb 10 kattintás) - fejlesztői beállítások - usb hibakeresés - adp - hsa key (enable)
+
+wrap_content -- méretezéshez irazítja a szöveget
+android:textSize="24dp" -- betű méret
+android:hint="Kérek egy nevet" <!--beviteli_mező_szövege-->
+android:id="@+id/inputName" <!--most hozzuk létre az id-t-->
+android:layout_below="@id/inputName"/> <!-- a beviteli mező után jelenik meg a gomb -->
+
+Összekapcsolás:
+EditText editText;
+Button button;
+TextView txtUzenet;
+
+Kis és nagybetű érzékeny
+
+giten:
+app- src - main- MainActivity.java

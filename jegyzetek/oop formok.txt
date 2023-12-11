@@ -53,7 +53,37 @@ integer - egész
 double, float - lebegőpontos
 decimal - binárisan kódolt decimális
 
+https://www.connectionstrings.com/mysql/
 Adatbázis kapcsolása: - Megkeressük a szolgáltató kiegészítőjét. 
 - manage nuget packages.. -- MySql.Data - install --> references- mysql.data --> using MySql.Data.MySqlClient;
-- Form-ba betoltes(); --> generálás -->
+- Form - betoltes(); --> generálás -->
 
+	listBox_tagok.Items.Clear();
+            try
+            {
+                if (connection.State != ConnectionState.Open)
+                {
+                    connection.Open();
+                }
+                command.CommandText = "SELECT `azon`,`nev`,`szulev`,`irszam`,`orsz` FROM `ugyfel` WHERE 1 ORDER BY nev;";
+                using (MySqlDataReader dr = command.ExecuteReader())
+                {
+                    while (dr.Read())
+                    {
+                        Tag beolvasottTag = new Tag(dr.GetInt32("azon"), dr.GetString("nev"), dr.GetInt32("szulev"), dr.GetInt32("irszam"), dr.GetString("orsz"));
+                        listBox_tagok.Items.Add(beolvasottTag);
+                    }
+                }
+            } 
+            catch (MySqlException ex) 
+            {
+                MessageBox.Show(ex.Message); //hibakód
+                Environment.Exit(0);
+            }
+	
+
+program (fájlként tárolt)
+process (végrehajtás alatii program) - párhuzamosan futó szálakra fel lehet osztani
+thread (process része -- egymással adatokon keresztül nem komunikál, minden elem külön szálon mozog)
+
+showDialog: modál
