@@ -1,0 +1,20 @@
+Flowgorithm
+
+Lineáris keresés rendezetlen adathalmazokban
+Adathalmazokban keresünk
+
+Rendező algoritmus:
+- összehasonlítások száma
+- rendezendő adatok száma
+
+buborék rendezés
+két szomszédos elemet vizsgál
+
+beszúró rendezés
+mindig a következő elemet beszúrja a helyére. lassú
+
+kiválasztó rendezés
+megkeresi az elemet és egyből a helyére teszi
+
+gyors rendezés
+a középső elemhez képest rendez

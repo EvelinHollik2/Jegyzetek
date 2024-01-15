@@ -1,0 +1,12 @@
+algoritmus (ha van benne eldöntentő dolog) leíró eszközök (elemei: szekvencia, iteráció, szelekció)
+-- folyamat ábra (flow-chart - 1 kezdö és 1 végpont lehet ami elipszis (start, end)
+			     - input, output --> paraleogramma 
+			     - értékadó utasítás --> téglalap
+			     - eldöntés --> rombusz
+			Irányított vonalak kötik össze. --> https://irh.inf.unideb.hu/~vargai/APA/Flowchart_hu.html
+
+-- pszeudó-kód --> https://irh.inf.unideb.hu/~vargai/APA/Pseudocode_hu.html
+-- mondatszerű --> https://tudasbazis.sulinet.hu/hu/szakkepzes/informatika/programozaselmelet/struktogramok/mondatszeru-leiras
+-- struktogram --> https://tudasbazis.sulinet.hu/hu/szakkepzes/informatika/programozaselmelet/programozasi-alapok/struktogramok
+-- Jackson --> http://gain.wsuf.hu/sites/default/files/fajlok/2_4_Algoritmusleiro_eszkozok_Jackson_abra.pdf
+

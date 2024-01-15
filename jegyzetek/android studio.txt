@@ -20,3 +20,4 @@ Kis és nagybetű érzékeny
 
 giten:
 app- src - main- MainActivity.java
+app- src- main- res- layout -activity_main.xml

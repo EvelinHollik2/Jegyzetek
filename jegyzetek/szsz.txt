@@ -1,0 +1,16 @@
+szoftver: a számítógépen tárolt utasítások és adatok, és a hozzá tartozó kezelési útmutató
+
+csoportosítása:
+-- operációs : működtető programok összessége, hardver használatóságát biztosítják
+-- felhasználói programok:
+	- játék
+	- office, ügyviteli
+	- oktató
+
+pixelgrafikus 	vs 	vektor grafikus tárolási mód
+	||			||
+pontokra bontva tásol		geometikusan tárol(polinom)
+(bmp, jpg, png, gif, tiff)	(svg, cdr)
+
+DVD : RW rewrite
+W : write
