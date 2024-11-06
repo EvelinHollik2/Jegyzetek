@@ -72,6 +72,10 @@ Normalizálás:
 -- Triggerek (INSERT, UPDATE, DELETE)
 -- Időzitett eljárások
 
+rendezés:
+-- növekvő (ABC) - ASC
+-- csökkenő - DESC
+
 VIEW:
 SELECT * FROM vevo NATURAL JOIN rendeles NATURAL JOIN tetel NATURAL JOIN pizza NATURAL JOIN futar;
 
